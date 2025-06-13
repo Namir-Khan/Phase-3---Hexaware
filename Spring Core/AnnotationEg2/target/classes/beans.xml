@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+        
+        <bean id = "b1" class = "com.hexaware.AnnotationEg2.Book">
+			<property name="code" value="101"/>
+        	<property name="name" value="Apple"/>
+        	<property name="price" value="2000"/>
+        	<property name="cityList">
+        	<list>
+        		<value>Delhi</value>
+        		<value>Pune</value>
+        	</list>
+        	</property>
+        	
+        	<property name="sales">
+                 
+              <map>
+              
+              <entry key="pune" value="3000"/>
+              
+                            <entry key="delhi" value="4000"/>
+              
+              
+              </map>
+        
+             </property>
+		</bean>                   
+</beans>

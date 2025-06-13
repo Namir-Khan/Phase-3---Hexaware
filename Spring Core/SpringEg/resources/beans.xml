@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+    <!-- Define your beans here -->
+    <!-- Example:
+    <bean id="myBean" class="com.spring.example.MyClass"/>
+    -->
+    <bean id="aa1" class="com.hexaware.SpringEg.Address">
+        <property name="hno" value="301"/>
+        <property name="city" value="Pune"/>
+        <property name="pcode" value="21109"/>
+    </bean>
+    
+    <bean id = "s1" class = "com.hexaware.SpringEg.Student">
+    	<property name="rollno" value="101"/>
+    	<property name="name" value="Namir"/>
+    	<property name="fee" value="2000"/>	
+    	<property name="address" ref="aa1"/>
+    </bean>	
+</beans>
