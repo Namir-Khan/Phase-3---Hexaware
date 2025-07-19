@@ -1,0 +1,33 @@
+.cont {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ 
+.cont input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+ 
+.cont button {
+  width: 45%;
+  padding: 8px;
+  margin: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+.cont button:hover {
+  background-color: #45a049;
+}
